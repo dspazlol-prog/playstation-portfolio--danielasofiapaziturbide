@@ -3,7 +3,7 @@
 const categories = [
     {
         name: "PROFILE",
-        icon: '<img src="Assets/PS3Facelogo.png" alt="Profile">',
+        icon: '<img src="Assets/PS3FaceLogo.png" alt="Profile">',
         items: [
             {
                 title: "About Me",
