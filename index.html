@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Artist | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="video-background">
+    <video autoplay muted loop playsinline>
+        <source src="Assets/Background.mp4" type="video/mp4">
+    </video>
+</div>
+
+    <main class="xmb">
+
+        <header class="top-bar">
+            <div class="brand">PLAYSTATION <span>PORTFOLIO</span></div>
+            <div class="system-info">
+                <span>PLAYER 01</span>
+                <span id="clock"></span>
+            </div>
+        </header>
+
+        <nav class="categories" id="categories"></nav>
+
+        <section class="content">
+            <div class="section-heading">
+                <span id="section-number">01</span>
+                <h2 id="section-title">PROFILE</h2>
+            </div>
+
+            <div id="menu-items"></div>
+        </section>
+
+        <footer class="bottom-bar">
+            <span>← → Navigate</span>
+            <span>↑ ↓ Navigate</span>
+            <span>ENTER Open</span>
+            <span>ESC Back</span>
+        </footer>
+
+        <div id="overlay" class="overlay hidden">
+            <div class="overlay-window">
+                <button id="close-overlay" class="close-button">×</button>
+                <div id="overlay-content"></div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
